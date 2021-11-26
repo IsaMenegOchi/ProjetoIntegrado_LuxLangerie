@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#formPesquisa{
+    margin: 15px;
+    border: 2px solid #B09896;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    max-width: 200px;
+}
+
+#caixaPesquisa{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+#lupa{
+    width: 25px;
+    height: 25px;
+}
