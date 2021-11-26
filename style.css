@@ -15,8 +15,10 @@
 
 #caixaPesquisa{
     border: none;
+    border-radius: 5px;
     outline: none;
     padding: 5px;
+    font-family: 'Bentham', serif;
 }
 
 #lupa{
