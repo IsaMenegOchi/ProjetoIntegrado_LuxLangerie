@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-#formPesquisa{
+#formPesquisa {
     margin: 15px;
     border: 2px solid #B09896;
     border-radius: 5px;
@@ -14,9 +14,12 @@
     align-items: center;
     width: 347px;
     height: 40px;
+    margin-top: 35px;
+    margin-left: 35px;
+    z-index: 999;
 }
 
-#caixaPesquisa{
+#caixaPesquisa {
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
@@ -25,64 +28,72 @@
     font-family: 'Bentham', serif;
 }
 
-#lupa{
+#lupa {
     margin-top: 2px;
     width: 50px;
     height: 30px;
 }
 
-
-header{
+header {
     display: flex;
     flex-direction: row;
     width: 100vw;
     height: 100%;
 }
 
-#teste{
+#containerLogo {
     display: flex;
     position: absolute;
     width: 100vw;
-    /* height: 100%; */
     justify-content: center;
     align-items: center;
 }
 
-#luxLogo{
+#luxLogo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    /* margin-left: 225px; */
+    width: 350px;
 }
 
-.menuCliente{
+.menuCliente {
     display: flex;
     position: absolute;
     width: 100vw;
     justify-content: flex-end;
     align-items: flex-end;
-    /* gap: 35px; */
-    /* margin-right: 55px; */
+    margin-top: 10px;
 }
 
-.clienteMenuProdutos, .clienteMenuFavoritos{
+.clienteMenuProdutos,
+.clienteMenuFavoritos {
     width: 15%;
     height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-p{
-    /* font-family: 'Bentham', serif; */
+p {
     font-size: 24px;
     color: #48302E;
     max-width: 250px;
 }
 
-#iconeSacola, #iconeCoracao{
-    width: 70px;
+#iconeSacola {
+    width: 50px;
     height: 60px;
+}
+
+#iconeCoracao {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.textoCliente {
+    font-size: 20px;
 }
