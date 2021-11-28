@@ -97,3 +97,23 @@ p {
 .textoCliente {
     font-size: 20px;
 }
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D7A29B;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+}
+
+#iconePerfil {
+    width: 35px;
+}
