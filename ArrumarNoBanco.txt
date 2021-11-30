@@ -1,0 +1,4 @@
+1 - Tirar tbl intermediaria de tamanho
+2 - Tirar relação de cliente e produto, e criar uma tabela "pedido" para relacionar tais
+3 - Remover qualquer relação com a tabela administrador
+ 
