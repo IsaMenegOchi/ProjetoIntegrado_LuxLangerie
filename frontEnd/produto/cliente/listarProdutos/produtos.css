@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-main{
+main {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -12,13 +12,79 @@ main{
     align-items: center;
 }
 
-#tituloFiltro{
+#tituloFiltro {
     width: 100vw;
     margin-top: 25px;
     text-align: center;
+    font-size: 30px;
 }
 
-#filtroProdutos{
-    /* font-family: 'Bentham', serif; */
+#filtroProdutos {
     font-size: 20px;
+}
+
+.containerFiltro input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid #999;
+    transition: 0.1s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 2px;
+}
+
+input:checked {
+    background-color: #F4C3BD;
+}
+
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+.card {
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+    border: 3px solid #D7A29B;
+    border-radius: 20px;
+    width: 280px;
+    height: 410px;
+}
+
+.card img{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.preco {
+    color: grey;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card h1, .descricao{
+    margin-bottom: 15px;
+}
+
+#fotoProduto {
+    max-width: 300px;
 }
