@@ -1,0 +1,30 @@
+/produtos
+
+[
+	{
+		nome: 'zyz',
+		valor: 123,
+		descricao: 'wewer',
+		foto:'sdasdsa',
+		cor: 'azul'
+	},
+	{
+		nome: 'zyz',
+		valor: 123,
+		descricao: 'wewer',
+		foto:'sdasdsa'
+	}
+]
+
+/clientes
+
+[
+	{
+		email: 'zyz',
+		senha: 123
+	},
+	{
+		email: 'abc',
+		senha: 123
+	}
+]
