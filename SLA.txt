@@ -27,3 +27,9 @@ ARRUMAR NO BANCO (ja feito)
 2 - Tirar relação de cliente e produto, e criar uma tabela "pedido" para relacionar tais
 3 - Remover qualquer relação com a tabela administrador
  
+
+TELAS DE CADA INTEGRANTE
+Felipe - telas de: Produto, favoritos e editar/excluir produtos
+Isabelle - tela: Inicial, detalhes de produto e carrinho
+Luiza - telas de: perfil, editar perfil, cadastro e login cliente
+Sara - tela de: quem somos, trocas e devoluções e adicionar e editar produto
