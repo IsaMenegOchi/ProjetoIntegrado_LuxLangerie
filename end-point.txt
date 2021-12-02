@@ -1,0 +1,35 @@
+/produtos
+[
+	{
+		nomeProduto:'Conjunto Branco',
+		preco: 70,
+		descricao: 'Descrição Produto',
+		tamanho: 'P',
+		quantidade: 1,
+		modelo: '',
+		cor: 'Branco',
+		desconto: 0,
+		foto: '.png'
+	}
+]
+
+
+/cliente
+[
+	{
+		nomeCliente: 'Julio'
+		email: 'javix@gmail.com',
+		telefone: '11 987654321'
+		senha: '12345'
+	}
+]
+
+
+/administrador
+[
+	{
+		email: 'luxlingerie@uol.com',
+		senha: '12345'
+	}
+]
+
