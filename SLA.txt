@@ -1,0 +1,29 @@
+CLIENTE:
+	CADASTRO
+	ALTEARAR SEUS DADOS
+
+PRODUTOS:
+	ADMIN
+		CADASTRAR, LISTAR, ALTERAR E EXCLUIR
+
+	CLIENTE
+		LISTA: LISTAGEM GERAL, VER DETALHES DO PRODUTO, ORDENAR LISTAGEM
+
+BANCO DE DADOS:
+	 - CLIENTE
+	 - PRODUTOS
+
+API REST:
+	MODEL:
+		-CLIENTE 
+		-PRODUTO
+
+	CONTROLLER:
+		-CLIENTE 
+		-PRODUTO
+
+ARRUMAR NO BANCO (ja feito)
+1 - Tirar tbl intermediaria de tamanho
+2 - Tirar relação de cliente e produto, e criar uma tabela "pedido" para relacionar tais
+3 - Remover qualquer relação com a tabela administrador
+ 
