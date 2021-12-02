@@ -1,6 +1,6 @@
 <?php
 
-// require_once("../index.html");
+include("../header/header.php");
 ?>
 
 <!DOCTYPE html>
