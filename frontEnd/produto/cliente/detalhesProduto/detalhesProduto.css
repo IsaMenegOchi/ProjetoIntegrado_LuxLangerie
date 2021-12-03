@@ -7,74 +7,191 @@
 main{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(252, 36, 36, 0.363);
+    /* background-color: rgba(252, 36, 36, 0.363); */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 90px;
     padding-bottom: 0px;
+    font-family: 'Bentham', serif;
 }
 .produto{
     width: 90vw;
-    height: 100vw;
-    background:#0b097e;
+    height: 70vw;
+    /* background:#0b097e; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: row;
 }
 
 .fotoProduto{
     width: 50%;
+    max-width: 700px;
     height: 100%;
-    background:#7e0909;
+    max-height: 1000px;
+    /* background:#7e0909; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
 }
 
     .fotoPrincipal{
-        width: 97%;
-        height: 80%;
-        background: #494394;
+        width: 100%;
+        max-width: 530px;
+        height: 85%;
+        max-height: 650px;
+        /* background: #494394; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
     }
         .fotoPrincipal img{
-            width: 10%;
-            height: 10%;
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            max-height: 610px;
+            border-radius: 15px;
+            object-fit: cover;
         }
 
     .outrasFotos{
-        width: 97%;
-        height: 20%;
-        background: #439457;
+        width: 100%;
+        max-width: 530px;
+        height: 15%;
+        max-height: 130px;
+        /* background: #439457; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
     }
+        .outrasFotos img {
+            width: 100%;
+            min-width: 50px;
+            max-width: 85px;
+            height: 100%;
+            min-height: 50px;
+            max-height: 85px;
+            /* border: solid black; */
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
 
 
 .informacoesProduto{
-
-    width: 300px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
     /* background:#7c7e09; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    padding: 20px;
 }
 
-    .divValor{
+    h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .divModelo{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
 
+    }
+
+    .divValor{
+        font-size: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .divTamanho{
-
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
     .divQtde{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
 
+    button{
+        width: 200px;
+        height: 50px;
+        background: #B09896;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+    }
+
+    input{
+        padding: 10px;
+        height: 40px;
+        border: solid #D7A29B 2px;
+        border-radius: 10px;
+        background: none;
+
+    }
+
+    button:hover{
+        box-shadow: 4px 4px #68686896;
     }
 
     .divFav{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
 
-.descricaoProduto{
-    /* width: 100%;
+.descricaoProd{
+    width: 100%;
+    min-width: 400px;
+    max-width: 920px;
     height: 25%;
-    background:#286311;
+    max-height: 1000px;
     display: flex;
-    align-items: flex-end;
-    justify-content: center; */
+    border: solid #D7A29B 2px;
+    border-radius: 5px;
+    padding: 10px;
+    /* background: #000; */
+    /* color: white; */
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    /* text-align: justify; */
 }
+
+.descricaoProd span{
+    font-size: 25px;
+}
+
+.descricaoProd p{
+    max-width: 880px;
+    width: 100%;
+    min-width: 30px;
+    /* background: rgb(167, 49, 49); */
+    font-size: calc(20px + .2vw);
+}
+
