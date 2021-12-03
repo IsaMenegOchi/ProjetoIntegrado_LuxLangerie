@@ -32,6 +32,8 @@ main {
     height: 410px;
 }
 
+
+
 #imgProduto{
     width: 50%;
     height: 60%;
@@ -57,6 +59,8 @@ main {
 
 .card h1, .descricao{
     margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
 }
 
 #fotoProduto {

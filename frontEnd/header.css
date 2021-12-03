@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+#linkProdutos{
+    color: dimgray;
+}
+
 #formPesquisa {
     border: 2px solid #B09896;
     border-radius: 5px;
