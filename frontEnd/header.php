@@ -11,7 +11,7 @@
         <header>
                 <form action="" id="formPesquisa">
                     <input type="text" id="caixaPesquisa" placeholder="O que você procura?" />
-                    <a href="index.php" id="containerLupa">
+                    <a href="header.php" id="containerLupa">
                         <img src="./icons/lupa-de-pesquisa.svg" alt="" id="lupa" />
                     </a>
                 </form>
@@ -33,11 +33,11 @@
                 </div>
 
             <div class="navegacao">
-                <a href="index.php"> Início </a>
-                <a href="index.php"> Produtos </a>
-                <a href="index.php"> Quem somos </a>
-                <a href="index.php"> Trocas e devoluções </a>
-                <a href="index.php">
+                <a href="header.php"> Início </a>
+                <a href="header.php"> Produtos </a>
+                <a href="header.php"> Quem somos </a>
+                <a href="header.php"> Trocas e devoluções </a>
+                <a href="header.php">
                     <img src="./icons/person_black_24dp 1.svg" alt="" id="iconePerfil" />
                 </a>
             </div>
