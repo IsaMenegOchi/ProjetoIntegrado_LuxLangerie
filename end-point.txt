@@ -1,15 +1,27 @@
 /produtos
 [
 	{
-		nomeProduto:'Conjunto Branco',
-		preco: 70,
-		descricao: 'Descrição Produto',
-		tamanho: 'P',
-		quantidade: 1,
-		modelo: '',
-		cor: 'Branco',
-		desconto: 0,
-		foto: '.png'
+		"nomeProduto":"Top detalhe renda",
+		"preco": 70,
+		"descricao": "Top com detalhes de renda com alças finas",
+		"tamanho": "P",
+		"quantidade": 1,
+		"modelo": "Top de renda",
+		"cor": "Branco",
+		"desconto": 0,
+		"foto": ".png"
+	},
+
+	{
+		"nomeProduto":"Top Alcinha Tricot",
+		"preco": 90,
+		"descricao": "Comprimento cropped, decote v, alças finas,",
+		"tamanho": "M",
+		"quantidade": 2,
+		"modelo": "Top",
+		"cor": "Preto",
+		"desconto": 0,
+		"foto": ".png"
 	}
 ]
 
@@ -17,19 +29,43 @@
 /cliente
 [
 	{
-		nomeCliente: 'Julio'
-		email: 'javix@gmail.com',
-		telefone: '11 987654321'
-		senha: '12345'
+		"nomeCliente": "Julio"
+		"email": "javix@gmail.com",
+		"telefone": "11 987654321",
+		"senha": "54321"
+	},
+
+	{
+		"nomeCliente": "Maria"
+		"email": "maria@gmail.com",
+		"telefone": "11 985621235",
+		"senha": "123"
 	}
 ]
 
 
 /administrador
 [
+
 	{
-		email: 'luxlingerie@uol.com',
-		senha: '12345'
+		"email": "helen@gmail.com",
+		"senha": "12345"
+	},
+
+	{
+		"email": "annyk@gmail.com",
+		"senha": "12345"
+	},
+
+	{
+		"email": "lorrayny@gmail.com",
+		"senha": "12345"
+	},
+
+	{
+		"email": "sophia@gmail.com",
+		"senha": "12345"
 	}
+
 ]
 
