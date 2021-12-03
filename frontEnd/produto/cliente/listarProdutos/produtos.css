@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main {
     width: 100vw;
     display: flex;
@@ -52,7 +56,6 @@ label {
 .card {
     margin-top: 20px;
     text-align: center;
-    font-family: arial;
     border: 3px solid #D7A29B;
     border-radius: 20px;
     width: 280px;
@@ -64,6 +67,7 @@ label {
     height: 60%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
+    user-select: none;
 }
 
 .containerCard{
@@ -118,4 +122,5 @@ label {
 
 #imgCoracao{
     height: 40px;
+    user-select: none;
 }
