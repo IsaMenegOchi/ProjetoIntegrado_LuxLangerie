@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloAdministrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card {
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid #D7A29B;
+    border-radius: 20px;
+    width: 280px;
+    height: 415px;
+}
+
+#imgProduto{
+    width: 50%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    user-select: none;
+}
+
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.preco {
+    color: grey;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card h1, .descricao{
+    margin-bottom: 15px;
+}
+
+#fotoProduto {
+    max-width: 300px;
+}
+
+#containerBotoes{
+    user-select: none;
+}
+
+#botaoExcluir, #botaoEditar{
+    background-color: #D7A29B;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Bentham', serif;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+#botaoExcluir:hover, #botaoEditar:hover{
+    color: white;
+}
