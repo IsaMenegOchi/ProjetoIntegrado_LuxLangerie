@@ -15,7 +15,7 @@
   display: none;
 }
 
-.mySlides img{
+.mySlides img {
   margin-top: 30px;
   max-height: 550px;
   max-width: 100vw;
@@ -94,6 +94,80 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.card {
+  margin-top: 20px;
+  text-align: center;
+  border: 3px solid #D7A29B;
+  border-radius: 20px;
+  width: 280px;
+  height: 410px;
+  margin: 15px;
+}
+
+#imgProduto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  user-select: none;
+}
+
+#desconto {
+  position: absolute;
+  background-color: #F4C3BD;
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 15px;
+  color: white;
+  margin: 5px;
+}
+
+.containerDesconto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerEmail {
+  width: 100vw;
+  background-color: #D7A29B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.containerEmail p {
+  max-width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.containerEmail input{
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #D7A29B;
+  outline: none;
+  border-radius: 15px;
+  width: 450px;
 }
 
 @-webkit-keyframes fade {
