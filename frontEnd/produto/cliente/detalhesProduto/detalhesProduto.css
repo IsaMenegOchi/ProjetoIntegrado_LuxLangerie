@@ -3,7 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+span, input, button{
+    font-family: 'Bentham', serif;
+    font-size: 20px;
+}
 main{
     width: 100vw;
     height: 100vh;
@@ -12,8 +15,9 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 90px;
-    padding-bottom: 0px;
+    padding: 200px;
+    padding-left: 300px;
+    /* padding-bottom: 0px; */
     font-family: 'Bentham', serif;
 }
 .produto{
@@ -58,25 +62,26 @@ main{
             object-fit: cover;
         }
 
-    .outrasFotos{
-        width: 100%;
-        max-width: 530px;
-        height: 15%;
-        max-height: 130px;
-        /* background: #439457; */
-        display: flex;
-        /* align-items: center; */
-        justify-content: center;
-        flex-direction: row;
-        gap: 20px;
-        padding: 10px;
-    }
+        .outrasFotos{
+            width: 100%;
+            max-width: 530px;
+            height: 15%;
+            max-height: 130px;
+            /* background: #439457; */
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+            padding: 10px;
+        }
+
         .outrasFotos img {
             width: 100%;
-            min-width: 50px;
+            min-width: 15px;
             max-width: 85px;
             height: 100%;
-            min-height: 50px;
+            min-height: 20px;
             max-height: 85px;
             /* border: solid black; */
             border-radius: 15px;
@@ -99,7 +104,7 @@ main{
 
     h2{
         font-size: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .divModelo{
         display: flex;
@@ -107,7 +112,7 @@ main{
         justify-content: center;
         flex-direction: column;
         margin-bottom: 30px;
-
+        font-family: 'Bentham', serif;
     }
 
     .divValor{
@@ -116,7 +121,10 @@ main{
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .divValor span{
+        font-size: 30px;
     }
 
     .divTamanho{
@@ -124,21 +132,41 @@ main{
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
+        .selectTamanho{
+            width: 100px;
+            height: 40px;
+            border-radius: 8px;
+            background: #B09896;
+            border: none;
+            color: white;
+            padding-left: 10px;
+            font-family: 'Bentham', serif;
+            font-size: 20px;
+        }
     .divQtde{
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        border: 2px #D7A29B;
+        position: relative;
+        font-family: 'Bentham', serif;
     }
+    .divQtde input{
+        padding-bottom: 15px;
+    }
+    
 
     button{
         width: 200px;
+        min-width: 100px;
         height: 50px;
+        min-height: 50px;
         background: #B09896;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         border: none;
         border-radius: 8px;
         color: white;
@@ -150,11 +178,11 @@ main{
         border: solid #D7A29B 2px;
         border-radius: 10px;
         background: none;
-
+        font-family: 'Bentham', serif;
     }
 
     button:hover{
-        box-shadow: 4px 4px #68686896;
+        box-shadow: 5px 5px 5px #68686869;
     }
 
     .divFav{
@@ -164,13 +192,17 @@ main{
         flex-direction: column;
         margin-bottom: 30px;
     }
+    .divFav span{
+        font-size: 15px;
+    }
 
 .descricaoProd{
+    margin-right: 200px;
     width: 100%;
-    min-width: 400px;
-    max-width: 920px;
-    height: 25%;
-    max-height: 1000px;
+    min-width: 250px;
+    max-width: 800px;
+    height: 37%;
+    max-height: 600px;
     display: flex;
     border: solid #D7A29B 2px;
     border-radius: 5px;
@@ -184,14 +216,43 @@ main{
 }
 
 .descricaoProd span{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .descricaoProd p{
-    max-width: 880px;
+    max-width: 980px;
     width: 100%;
-    min-width: 30px;
+    /* min-width: 1000px; */
     /* background: rgb(167, 49, 49); */
-    font-size: calc(20px + .2vw);
+    font-size: 20px;
+    text-align: justify;
 }
 
+@media (max-width: 500px){
+    .outrasFotos{
+        width: 100%;
+        max-width: 210px;
+        height: 15%;
+        max-height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .descricaoProd p{
+        /* max-width: 990px; */
+        width: 100%;
+        /* min-width: 100px; */
+        /* background: rgb(167, 49, 49); */
+        font-size: 0px;
+    }
+    .descricaoProd span{
+        font-size: 23px;
+    }
+}
+
+
+#imagemFavoritar{
+    width: 45px;
+    height: 45px;
+}

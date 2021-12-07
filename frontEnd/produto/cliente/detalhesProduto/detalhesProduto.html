@@ -7,7 +7,9 @@
     
     <!-- STYLES -->
     <link rel="stylesheet" href="./detalhesProduto.css">
-    <link rel="stylesheet" href="../../../header.css">
+    
+    <!-- SCRIPT -->
+    <script src="./teste.js" defer></script>
    
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,13 +63,13 @@
                 </div>
                 <div class="divQtde">
                     <span>Quantidade</span>
-                    <input type="number" class="inputQtde">
+                    <input type="number" class="inputQtde" min="1" max="5" value="1">
                 </div>
                 
                 <button>COMPRAR</button>
                 <div class="divFav">
-                    <img src="../../../icons/favorite_black_24dp 4.png" alt="">
-                    <span>Favoritar</span>
+                    <img src="../../../icons/favorito_linha.svg" alt="Favoritar" id="imagemFavoritar">
+                    <span id="spanFav">Favoritar</span>
                 </div>
     
             </div>
