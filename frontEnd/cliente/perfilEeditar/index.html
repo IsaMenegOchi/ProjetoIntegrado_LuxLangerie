@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu perfil</title>
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#header').load("./header.html");
+
+        });
+    </script>
+    <header id="header"></header>
+    <main>
+        <h1>MEU PERFIL</h1>
+        <div class="info">
+            <div class="input-label">
+                <label for="nome">Nome:</label>
+                <input name="nome" type="text" disabled>
+            </div>
+            <div class="input-label">
+                <label for="email">Email:</label>
+                <input name="email" type="text" disabled>
+            </div>
+            <div class="input-label">
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" type="text" disabled>
+            </div>
+            <div class="input-label" >
+                <label for="senha" hidden>Senha:</label>
+                <input name="senha" type="text" disabled hidden>
+            </div>
+        </div>
+        <input id="buttonEditar" type="button" value="EDITAR PERFIL">
+    </main>
+    <!-- <script>
+        $(function () {
+            $('#footer').load("./footer.html");
+
+        });
+    </script> -->
+    <footer id="footer"></footer>
+
+</body>
+
+</html>

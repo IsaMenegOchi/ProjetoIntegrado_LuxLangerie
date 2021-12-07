@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Entrar</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#header').load("./header.html");
+
+        });
+    </script>
+    <header id="header"></header>
+    <main>
+        <h1>ENTRAR AGORA MESMO!</h1>
+        <div class="campos">
+            <div class="input-label">
+                <label for="email">Email:</label>
+                <input name="email" type="text">
+            </div>
+            <div class="input-label">
+                <label for="senha">Senha:</label>
+                <input name="senha" type="password">
+            </div>
+            <div class="button">
+                <input id="buttonConta" type="button" value="ENTRAR">
+                <p>Não possui uma conta?</p>
+                <a href="./index.html"><p>Faça já seu cadastro</p></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

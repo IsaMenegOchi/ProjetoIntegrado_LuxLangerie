@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Criar conta</title>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#header').load("./header.html");
+
+        });
+    </script>
+    <header id="header"></header>
+    <main>
+
+        <h1>CRIE UMA CONTA AGORA MESMO!</h1>
+        <div class="campos">
+            <div class="input-label">
+                <label for="nome">Nome:</label>
+                <input type="text">
+            </div>
+            <div class="input-label">
+                <label for="nome">Email:</label>
+                <input type="text">
+            </div>
+            <div class="input-label">
+                <label for="nome">Telefone:</label>
+                <input type="text">
+            </div>
+            <div class="input-label">
+                <label for="nome">Senha:</label>
+                <input type="password">
+            </div>
+            <div class="button">
+                <input id="buttonConta" type="button" value="CRIAR PERFIL">
+                <p>Já possui uma conta?</p>
+                <a href="./entrar.html"><p>Entrar</p></a>
+                
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

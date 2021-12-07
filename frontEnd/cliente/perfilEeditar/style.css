@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bentham', serif;
+    color: #48302E;
+    gap: 15%;
+    user-select: none;
+}
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-label{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-label input{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #D7A29B;
+    padding: 7px;
+}
+
+#buttonEditar{
+    background-color: #F4C3BD;
+    font-family: 'Bentham', serif;
+    border: transparent;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 150px;
+
+}
+
