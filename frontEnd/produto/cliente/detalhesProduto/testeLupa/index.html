@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type = "text / javascript" src = ".js/jquery-last.min.js"></script>
+    <script type = "text/javascript" src = ".js/jquery.mlens-1.7.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <img id="green_monster" src="images/img_produto3_teste.jpg" alt="bike gear by Markus Spiske" data-big="images/gear-big.jpg" data-big2x="images/gear-big@2x.jpg" data-overlay="images/overlay.png" />
+    
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $("#gear").mlens(
+            {
+                imgSrc: $("#gear").attr("data-big"),	  // path of the hi-res version of the image
+                imgSrc2x: $("#gear").attr("data-big2x"),  // path of the hi-res @2x version of the image
+                                                          //for retina displays (optional)
+                lensShape: "circle",                // shape of the lens (circle/square)
+                lensSize: ["20%","30%"],            // lens dimensions (in px or in % with respect to image dimensions)
+                                                    // can be different for X and Y dimension
+                borderSize: 4,                  // size of the lens border (in px)
+                borderColor: "#fff",            // color of the lens border (#hex)
+                borderRadius: 0,                // border radius (optional, only if the shape is square)
+                imgOverlay: $("#gear").attr("data-overlay"), // path of the overlay image (optional)
+                overlayAdapt: true,    // true if the overlay image has to adapt to the lens size (boolean)
+                zoomLevel: 1,          // zoom level multiplicator (number)
+                responsive: true       // true if mlens has to be responsive (boolean)
+            });
+        });
+        </script>
+</body>
+</html>
