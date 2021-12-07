@@ -1,20 +1,21 @@
+"use strict"
+
 var slideIndex = 1;
-showSlides(slideIndex);
+mostrarSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+// Controles de próximo/anterior
+function maisSlides(n) {
+    mostrarSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-    showSlides(slideIndex = n);
+function slideAtual(n) {
+    mostrarSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function mostrarSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    var slides = document.getElementsByClassName("meusSlides");
+    var bolinhas = document.getElementsByClassName("bolinha");
     if (n > slides.length) {
         slideIndex = 1
     }
@@ -24,9 +25,9 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    for (i = 0; i < bolinhas.length; i++) {
+        bolinhas[i].className = bolinhas[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    bolinhas[slideIndex - 1].className += " active";
 }
