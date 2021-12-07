@@ -110,6 +110,7 @@ label {
     justify-content: center;
     align-items: center;
     transition: all 0.1s linear;
+    cursor: pointer;
 }
 
 #buttonFavoritar:hover{
