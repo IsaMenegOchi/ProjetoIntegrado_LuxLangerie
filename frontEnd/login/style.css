@@ -16,19 +16,20 @@ body{
 main{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     font-family: 'Bentham', serif;
     color: #48302E;
-    gap: 10%;
-    user-select: none;
+    gap: 5%;
 }
 
 
 h1{
-    margin-top: 5%;
-    margin-bottom: 2%;}
+    /* margin-top: 5%; */
+    margin-bottom: 2%;
+}
 
 .campos{
     display: flex;
@@ -43,11 +44,16 @@ h1{
     gap: 5px;
 }
 
+.input-label label{
+    user-select: none;
+}
+
 .input-label input{
     padding: 7px;
     background-color: transparent;
     border: 2px solid #D7A29B;
     border-radius: 5px;
+    outline: none;
 }
 
 .button{
@@ -62,19 +68,31 @@ h1{
     background-color: #F4C3BD;
     font-family: 'Bentham', serif;
     border: transparent;
-    width: 150px;
+    width: 170px;
     padding: 10px;
     border-radius: 50px;
     font-size: 1rem;
     cursor: pointer;
-    
+    transition: all 0.1s linear;
+
 }
 
-a{
+#buttonConta:hover{
+    background-color: #fdc7c0;
+}
+
+#linkEntrar, #containerCadastro a p, .input-label a p{
     text-decoration: none;
     color: #0A66BB;
 }
 
-p{
-    font-size: 0.8rem;
+#containerCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, #containerCadastro p, .input-label a p{
+    font-size: 1rem;
 }
