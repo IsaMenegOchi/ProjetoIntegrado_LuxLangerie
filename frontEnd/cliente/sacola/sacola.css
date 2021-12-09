@@ -1,14 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
-    font-family:  "Bentham", serif;
+    overflow-x: hidden;
+    /* font-family: "Bentham", serif; */
 }
-main{
+
+main {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,110 +19,134 @@ main{
     align-items: center;
     flex-direction: column;
     /* margin-top: 20px; */
-    font-family:"Bentham", serif;
+    font-family: "Bentham", serif;
     /* background: #098325; */
 }
-    h1{
-        font-size: 35px;
-        margin-bottom: 30px;
-        font-family: "Bentham", serif;
-    }
-    .cardProduto{
-        width: 60%;
-        height: 300px;
-        /* background: #983083; */
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        border: solid 5px #D7A29B;
-        border-radius: 15px;
-        margin-top: 20px;
-    }
-        .divImagemP{
-            width: 20%;
-            height: 90%;
-            margin: 20px;
-        
-        }
-            .imagemP{
-                width: 100%;
-                max-width: 400px;
-                height: 100%;
-                max-height: 610px;
-                border-radius: 15px;
-                object-fit: cover;
-            }
-        .nomeQtde{
-            width: 30%;
-            height: 90%;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            padding: 40px 20px 10px 10px;
-            /* background: rgb(255, 0, 0); */
-        }
-            h3{
-                font-size: 35px;
-                text-align: justify;
-                font-family:  "Bentham", serif;;
-            }
-            .qtde{
-                width: 100%;
-                height: 35%;
-                padding-left: 10px;
-                border: solid 2px #D7A29B;
-                background: none;
-                font-family:  "Bentham", serif;
-                font-size: 30px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            input::-webkit-outer-spin-button,
-            input::-webkit-inner-spin-button{
-                -webkit-appearance: radio;
-                margin: 0;
-            }
-        .corTam{
-            width: 20%;
-            height: 90%;
-            margin: 20px;
-            /* background: rgb(28, 172, 148); */
-            padding: 40px 20px 10px 10px;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-end;
-            font-size: 30px;
-            flex-direction: column;
-        }
-        .cor{
-            /* background: #123456; */
-            font-family: "Bentham", serif;
-        }
-        .tam{
-            /* background:#654321; */
-        }
-    .lixeValor{
-        width: 21.5%;
-        height: 90%;
-        /* background: #000; */
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-        .lixeira{
-            width: 80px;
-            height: 80px;
-            background: #E7D7D5;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .valor{
-            width: 80%;
-            height: 25%;
-            /* background: #920043; */
-            font-size: 50px;
-        }
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: "Bentham", serif;
+    color: #48302E;
+    margin-top: 30px;
+}
+
+.cardProduto {
+    width: 60%;
+    height: 300px;
+    /* background: #983083; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 5px #D7A29B;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.divImagemP {
+    width: 20%;
+    height: 90%;
+    margin: 20px;
+
+}
+
+.imagemP {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 610px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.nomeQtde {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 20px 10px 10px;
+    /* background: rgb(255, 0, 0); */
+}
+
+h3 {
+    font-size: 35px;
+    text-align: justify;
+    font-family: "Bentham", serif;
+    max-width: 180px;
+}
+
+.qtde {
+    width: 100%;
+    height: 35%;
+    padding-left: 10px;
+    border: solid 2px #D7A29B;
+    background: none;
+    font-family: "Bentham", serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: radio;
+    margin: 0;
+}
+
+.corTam {
+    width: 20%;
+    height: 90%;
+    margin: 20px;
+    /* background: rgb(28, 172, 148); */
+    padding: 40px 20px 10px 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.cor {
+    /* background: #123456; */
+    font-family: "Bentham", serif;
+}
+
+.tam {
+    /* background:#654321; */
+}
+
+.lixeValor {
+    width: 21.5%;
+    height: 90%;
+    /* background: #000; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lixeira {
+    width: 80px;
+    height: 80px;
+    background: #E7D7D5;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.lixeira:hover{
+    background: #f1e1df;
+}
+
+.valor {
+    width: 80%;
+    height: 25%;
+    /* background: #920043; */
+    font-size: 50px;
+}
