@@ -6,16 +6,17 @@
 body{
     width: 100vw;
     height: 100vh;
-    font-family:  "Bentham", serif;;
+    font-family:  "Bentham", serif;
 }
 main{
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    font-family:se ;
+    /* margin-top: 20px; */
+    font-family:"Bentham", serif;
     /* background: #098325; */
 }
     h1{
@@ -24,7 +25,7 @@ main{
         font-family: "Bentham", serif;
     }
     .cardProduto{
-        width: 70%;
+        width: 60%;
         height: 300px;
         /* background: #983083; */
         display: flex;
@@ -49,16 +50,16 @@ main{
                 object-fit: cover;
             }
         .nomeQtde{
-            width: 20%;
+            width: 30%;
             height: 90%;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-            padding: 40px 20px 30px 10px;
-            background: rgb(255, 0, 0);
+            padding: 40px 20px 10px 10px;
+            /* background: rgb(255, 0, 0); */
         }
             h3{
-                font-size: 25px;
+                font-size: 35px;
                 text-align: justify;
                 font-family:  "Bentham", serif;;
             }
@@ -80,7 +81,45 @@ main{
                 margin: 0;
             }
         .corTam{
-            background: rgb(28, 172, 148);
-            font-family: "Bentham", serif;;
+            width: 20%;
+            height: 90%;
+            margin: 20px;
+            /* background: rgb(28, 172, 148); */
+            padding: 40px 20px 10px 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            font-size: 30px;
+            flex-direction: column;
         }
-        
+        .cor{
+            /* background: #123456; */
+            font-family: "Bentham", serif;
+        }
+        .tam{
+            /* background:#654321; */
+        }
+    .lixeValor{
+        width: 21.5%;
+        height: 90%;
+        /* background: #000; */
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+        .lixeira{
+            width: 80px;
+            height: 80px;
+            background: #E7D7D5;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .valor{
+            width: 80%;
+            height: 25%;
+            /* background: #920043; */
+            font-size: 50px;
+        }
