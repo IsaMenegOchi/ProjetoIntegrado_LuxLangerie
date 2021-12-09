@@ -28,7 +28,7 @@ h1 {
     margin-bottom: 30px;
     font-family: "Bentham", serif;
     color: #48302E;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .cardProduto {
@@ -38,7 +38,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: solid 5px #D7A29B;
+    border: solid 3px #D7A29B;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -65,23 +65,24 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 40px 20px 10px 10px;
+    padding: 20px 20px 10px 10px;
     /* background: rgb(255, 0, 0); */
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: justify;
     font-family: "Bentham", serif;
-    max-width: 180px;
     color: #48302E;
+    max-width: 300px;
+    /* background: #000; */
 }
 
 .qtde {
-    width: 100%;
+    width: 80%;
     height: 35%;
     padding-left: 10px;
-    border: solid 2px #D7A29B;
+    border: solid 2.5px #D7A29B;
     background: none;
     font-family: "Bentham", serif;
     font-size: 30px;
@@ -89,13 +90,9 @@ h3 {
     align-items: center;
     justify-content: center;
     outline: none;
+    border-radius: 8px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: radio;
-    margin: 0;
-}
 
 .corTam {
     width: 20%;
@@ -108,6 +105,7 @@ input::-webkit-inner-spin-button {
     justify-content: flex-end;
     font-size: 30px;
     flex-direction: column;
+    gap: 10px;
 }
 
 .cor {
@@ -143,8 +141,11 @@ input::-webkit-inner-spin-button {
 }
 
 .valor {
-    width: 80%;
+    width: 85%;
     height: 25%;
     /* background: #920043; */
     font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
