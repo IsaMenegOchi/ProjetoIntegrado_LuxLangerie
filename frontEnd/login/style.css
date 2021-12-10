@@ -9,18 +9,22 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main{
     display: flex;
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: 'Bentham', serif;
     color: #48302E;
     gap: 5%;
+    padding: 15px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 
@@ -45,6 +49,10 @@ h1{
 
 .input-label label{
     user-select: none;
+}
+
+.input-label p{
+    font-size: 15px;
 }
 
 .input-label input{
@@ -83,6 +91,7 @@ h1{
 #linkEntrar, #containerCadastro a p, .input-label a p{
     text-decoration: none;
     color: #0A66BB;
+    font-size: 15px;
 }
 
 #containerCadastro{
