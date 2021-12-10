@@ -9,20 +9,23 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
 main{
     display: flex;
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     font-family: 'Bentham', serif;
     color: #48302E;
     gap: 5%;
+    margin-top: 120px;
+    margin-bottom: 350px;
 }
 
 
