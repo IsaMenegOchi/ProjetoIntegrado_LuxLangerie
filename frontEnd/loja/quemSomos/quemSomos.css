@@ -88,3 +88,8 @@ li{
     gap: 60px;
     margin-top: 20px;
 }
+
+#textoSobreEmpresa{
+    /* max-width: 650px; */
+    max-width: 100%;
+}
