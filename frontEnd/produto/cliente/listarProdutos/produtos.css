@@ -44,6 +44,10 @@ main {
     top: 2px;
 }
 
+.containerFiltro{
+    text-align: center;
+}
+
 input:checked {
     background-color: #F4C3BD;
 }

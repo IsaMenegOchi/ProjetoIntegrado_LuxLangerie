@@ -190,3 +190,65 @@ h3 {
 .valorTotal div span{
     font-size: 35px;
 }
+
+@media (max-width: 768px){
+    .cardProduto{
+        width: 90vw;
+    }
+
+    .cardProduto h3{
+        font-size: 30px;
+        max-width: 1550px;
+        text-align: center;
+    }
+
+    .cardProduto span{
+        font-size: 25px;
+    }
+
+    .cardProduto .divCor{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .valorTotal{
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .lixeValor{
+        margin-right: 5px;
+        height: 30%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: absolute;
+        left: 280px;
+        top: 380px;
+        margin-left: 15px;
+    }
+
+    .corTam{
+        display: none;
+    }
+
+    .qtde{
+        height: 40px;
+        width: 80px;
+    }
+
+    .nomeQtde{
+        width: 80%;
+    }
+
+    .lixeira{
+        background-color: rgba(0, 206, 209, 0);
+    }
+
+    .divImagemP{
+        width: 50%;
+    }
+
+    .valor{
+        height: 10%;
+    }
+}
