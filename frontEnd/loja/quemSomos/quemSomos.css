@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #48302E      ;
+}
+
+.titulo-quem-somos{
+    /* background-color: #B09896; */
+    color: #48302E;
+    font-family: 'Bentham', serif;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text{
+    /* background-color: #B09896; */
+
+    padding: 3%;
+    max-width: 100%;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    
+}
+
+.paragrafo-text{
+    max-width: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.titulo{
+    color: #ce948c;
+}
+
+.topicos-quem-somos{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-sobre-a-empresa{
+    background-color: #F4C3BD;
+    border-radius: 7px;
+    padding: 50px;
+    max-width: 70%;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 20px;
+    /* color: #48302E      ; */
+}
+
+.integrantes img{
+    border-radius: 10px;
+    border: 3px solid #D7A29B;
+    width: 10%;
+    box-shadow: 0px 0px 0px 3px rgb(165, 105, 105);
+}
+
+.integrantes{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 115px;
+    margin-top: 20px;
+}
