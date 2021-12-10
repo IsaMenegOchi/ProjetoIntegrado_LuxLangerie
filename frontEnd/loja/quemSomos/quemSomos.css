@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
     color: #48302E      ;
+    font-family: 'Bentham', serif;
 }
 
 .titulo-quem-somos{
-    /* background-color: #B09896; */
-    color: #48302E;
-    font-family: 'Bentham', serif;
     margin-top: 5%;
     display: flex;
     align-items: center;
@@ -16,11 +14,9 @@
 }
 
 .container-text{
-    /* background-color: #B09896; */
-
     padding: 3%;
     max-width: 100%;
-    font-size: large;
+    font-size: 1.2rem;
 
     display: flex;
     align-items: center;
@@ -31,46 +27,59 @@
 }
 
 .paragrafo-text{
-    max-width: 70%;
-    /* background-color: aquamarine; */
+    max-width: 40%;
     display: flex;
     flex-direction: column;
-   
+    gap: 15px;
 }
 
-.titulo{
-    color: #ce948c;
+.subtitulo{
+    color: #D7A29B;
 }
 
 .topicos-quem-somos{
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    gap: 200px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+li{
+    list-style-type: circle;
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+    color: #D7A29B;
+    font-weight: bold;
 }
 
 .container-sobre-a-empresa{
     background-color: #F4C3BD;
     border-radius: 7px;
     padding: 50px;
-    max-width: 70%;
+    max-width: 40%;
     margin-top: 50px;
 }
 
-h2{
-    font-size: 20px;
-    /* color: #48302E      ; */
+.titulo-historico-empresa{
+    font-size: 1.2rem;
 }
 
 .integrantes img{
     border-radius: 10px;
     border: 3px solid #D7A29B;
-    width: 10%;
-    box-shadow: 0px 0px 0px 3px rgb(165, 105, 105);
+    width: 7%;
+    box-shadow: 1px 1px 3px 3px rgb(202, 184, 184);
+    object-fit: cover;
 }
 
 .integrantes{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    gap: 115px;
+    gap: 60px;
     margin-top: 20px;
 }
