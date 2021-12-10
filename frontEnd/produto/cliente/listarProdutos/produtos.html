@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../../../header.css" />
-        <link rel="stylesheet" href="produtos.css" />
-        <script src="./favorito.js" defer></script>
-        <title>Produtos</title>
-    </head>
 
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../header.css" />
+    <link rel="stylesheet" href="../../../footer.css">
+    <link rel="stylesheet" href="produtos.css" />
+    <script src="./favorito.js" defer></script>
+    <title>Produtos</title>
+</head>
 
-        <script>
-            $(function () {
-                $("#header").load("./header.html")
-            })
-        </script>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <header id="header"></header>
-        <main>
-            <p id="tituloFiltro">Ordenar por:</p>
+    <script>
+        $(function () {
+            $("#header").load("./header.html")
+        })
+    </script>
 
-            <form action="" id="filtroProdutos">
-                <div class="containerFiltro">
-                    <input type="radio" id="escolha1" name="escolhas" value="menorPreco" />
-                    <label for="">Menor preço</label>
+    <header id="header"></header>
+    <main>
+        <p id="tituloFiltro">Ordenar por:</p>
 
-                    <input type="radio" id="escolha2" name="escolhas" value="maiorPreco" />
-                    <label for="">Maior preço</label>
+        <form action="" id="filtroProdutos">
+            <div class="containerFiltro">
+                <input type="radio" id="escolha1" name="escolhas" value="menorPreco" />
+                <label for="">Menor preço</label>
 
-                    <input type="radio" id="escolha3" name="escolhas" value="deAZ" />
-                    <label for="">De A-Z</label>
+                <input type="radio" id="escolha2" name="escolhas" value="maiorPreco" />
+                <label for="">Maior preço</label>
 
-                    <input type="radio" id="escolha4" name="escolhas" value="deZA" />
-                    <label for="">De Z-A</label>
-                </div>
-            </form>
+                <input type="radio" id="escolha3" name="escolhas" value="deAZ" />
+                <label for="">De A-Z</label>
 
-            <div class="containerCard">
-                <div class="card">
-                    <div id="containerFavoritar">
-                        <div href="" id="buttonFavoritar">
-                            <img id="imgCoracao" src="../../../icons/favorito_linha.svg" alt="" />
-                        </div>
-                    </div>
-                    <a href="../detalhesProduto/detalhesProduto.html">
-                        <img
-                            id="imgProduto"
-                            src="../../../../Imagens do design/Rectangle 39.png"
-                            alt=""
-                            style="width: 100%"
-                        />
-                    </a>
-                    <h1>Nome do produto</h1>
-                    <p class="preco">R$1,99</p>
-                    <p class="descricao">Descrição do produto</p>
-                </div>             
+                <input type="radio" id="escolha4" name="escolhas" value="deZA" />
+                <label for="">De Z-A</label>
             </div>
-        </main>
-    </body>
+        </form>
+
+        <div class="containerCard">
+            <div class="card">
+                <div id="containerFavoritar">
+                    <div href="" id="buttonFavoritar">
+                        <img id="imgCoracao" src="../../../icons/favorito_linha.svg" alt="" />
+                    </div>
+                </div>
+                <a href="../detalhesProduto/detalhesProduto.html">
+                    <img id="imgProduto" src="../../../../Imagens do design/Rectangle 39.png" alt=""
+                        style="width: 100%" />
+                </a>
+                <h1>Nome do produto</h1>
+                <p class="preco">R$1,99</p>
+                <p class="descricao">Descrição do produto</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(function () {
+            $("#footer").load("../../../footer.html")
+        })
+    </script>
+    <footer id="footer"></footer>
+</body>
+
 </html>
