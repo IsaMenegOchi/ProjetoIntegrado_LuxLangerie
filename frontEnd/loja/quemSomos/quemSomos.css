@@ -2,8 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #48302E      ;
+    color: #48302E;
+    overflow-x: hidden;
+}
+
+main{
     font-family: 'Bentham', serif;
+    margin-bottom: 30px;
 }
 
 .titulo-quem-somos{

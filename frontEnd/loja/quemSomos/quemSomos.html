@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../header.css">
+        <link rel="stylesheet" href="../../footer.css">
         <link rel="stylesheet" href="quemSomos.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,9 +20,14 @@
     </head>
 
     <body>
-        <header>
-                        
-        </header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+            $(function () {
+                $("#header").load("./header.html")
+            })
+        </script>
+        <header id="header"></header>
 
         <main>
             <h1 class="titulo-quem-somos">QUEM SOMOS</h1>
@@ -78,8 +85,11 @@
 
         </main>
 
-        <footer>
-            
-        </footer>
+        <script>
+            $(function () {
+                $("#footer").load("./footer.html")
+            })
+        </script>
+        <footer id="footer"></footer>
     </body>
 </html>
