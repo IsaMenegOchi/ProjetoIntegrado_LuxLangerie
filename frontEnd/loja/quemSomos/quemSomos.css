@@ -16,7 +16,7 @@
 .container-text{
     padding: 3%;
     max-width: 100%;
-    font-size: large;
+    font-size: 1.2rem;
 
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ li{
 }
 
 .titulo-historico-empresa{
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .integrantes img{
