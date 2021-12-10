@@ -187,3 +187,32 @@ body{
     opacity: 1
   }
 }
+
+@media (max-width: 768px){
+
+  .meusSlides img{
+    max-height: 250px;
+  }
+
+  #containerBolinhas{
+    top: 240px;
+  }
+
+  .bolinha{
+    width: 30px;
+    height: 30px;
+  }
+
+  .containerEmail input {
+    width: 370px;
+  }
+
+  .containerEmail p{
+    text-align: center;
+  }
+
+  #card3, #card4{
+    display: none;
+  }
+
+}

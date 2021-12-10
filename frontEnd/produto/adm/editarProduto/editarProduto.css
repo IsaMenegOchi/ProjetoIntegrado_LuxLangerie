@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bentham', serif;
+}
+
+.bodyEditarProdutos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: large;
+}
+
+.form-edicao h1{
+    color: #48302E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-edicao{
+    margin: 150px;
+    max-width: 650px;
+}
+
+input{
+    position: static;
+    height: 48px;
+    /* width: 300px; */
+    border: 3px solid #D7A29B;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    color: #48302E;
+}
+
+.grupo{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    border: 0;
+    margin-top: 35px;
+}
+
+button{
+    width: 40%;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F4C3BD;
+    color: #48302E;
+    font-size: large;
+    margin-top: 3em;
+}
+
+.buttonSalvar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nomeProduto, #descricao{
+    width: 525px;
+}
+
+#tamanho, #desconto{
+    width: 80px;
+}
+
+#preco{
+    width: 150px;
+}
+
+#cor{
+    width: 310px;
+}
+
+#quantidade{
+    width: 100px;
+}
+
+#modelo{
+    width: 350px;
+}
+
+#fotoProduto{
+    width: 100%;
+    background-color: #F4C3BD;
+    border: #F4C3BD;
+}
+
+.grupoUm{
+    gap: 45px;
+}
+
+.grupoDois{
+    gap: 45px;
+}
+
+.grupoTres{
+    gap: 45px;
+}
+
+.grupoQuatro{
+    gap: 45px;
+}
+
+
+

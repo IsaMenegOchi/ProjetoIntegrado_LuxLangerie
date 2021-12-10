@@ -11,6 +11,10 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden;
+>>>>>>> ed561c8f894640e58b90382a09e8c9c1b7f1ed92
 }
 
 main{
