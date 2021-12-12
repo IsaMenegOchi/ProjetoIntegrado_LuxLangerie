@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #48302E;
+
+    font-family: 'Bentham', serif;
+}
+
+.mainTrocasDevolucoes{
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.titulo-trocas-devolucoes{
+    /* background-color: #B09896; */
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text{
+    /* background-color: #B09896; */
+    padding: 3%;
+    max-width: 100%;
+    /* font-size: 1.2rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topicos-trocas-devolucoes{
+    max-width: 45%;
+    /* background-color: aquamarine; */
+}
+
+li{
+    list-style-type: circle;
+    font-size: 1.2rem;
+}
+
+.p-final{
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
