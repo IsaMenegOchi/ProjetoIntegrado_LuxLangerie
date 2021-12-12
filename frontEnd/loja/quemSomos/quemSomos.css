@@ -52,7 +52,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 10px;
+    gap: 20px;
 }
 
 li{
@@ -113,3 +113,40 @@ li{
 #passar_mouse:hover #mostrar{
     display:block;
 }
+
+@media (max-width: 900px  ){
+
+    .paragrafo-text{
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .topicos-quem-somos{
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .container-sobre-a-empresa{
+        max-width: 90%;
+    }
+  
+    .container-sobre-a-empresa h2{
+      /* max-width: 80%; */
+      font-size: 20px;
+    }
+
+    .integrantes img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .integrantes{
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }
