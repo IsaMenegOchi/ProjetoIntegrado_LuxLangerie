@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../../../header.css" />
-        <a href="./footer.css"></a>
-        <title>Header</title>
-    </head>
 
-    <body>
-        <header>
-                <form action="" id="formPesquisa">
-                    <input type="text" id="caixaPesquisa" placeholder="O que você procura?" />
-                    <a href="header.html" id="containerLupa">
-                        <img src="../../../icons/lupa-de-pesquisa.svg" alt="" id="lupa" />
-                    </a>
-                </form>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../header.css" />
+    <a href="./footer.css"></a>
+    <title>Header</title>
+</head>
 
-                <div id="containerLogo">
-                    <img src="../../../icons/logo-lux.png" alt="" id="luxLogo" />
-                </div>
+<body>
+    <header>
+        <form action="" id="formPesquisa">
+            <input type="text" id="caixaPesquisa" placeholder="O que você procura?" />
+            <a href="header.html" id="containerLupa">
+                <img src="../../icons/lupa-de-pesquisa.svg" alt="" id="lupa" />
+            </a>
+        </form>
 
-                <div class="menuCliente">
-                    <div class="clienteMenuProdutos">
-                        <img src="../../../icons/shopping_bag_black_24dp 1.svg" alt="" id="iconeSacola" />
-                        <p class="textoCliente">Meus produtos</p>
-                    </div>
+        <div id="containerLogo">
+            <img src="../../icons/logo-lux.png" alt="" id="luxLogo" />
+        </div>
 
-                    <div class="clienteMenuFavoritos">
-                        <img src="../../../icons/favorito_linha.svg" alt="" id="iconeCoracao" />
-                        <p class="textoCliente">Meus favoritos</p>
-                    </div>
-                </div>
-
-            <div class="navegacao">
-                <a href="../../loja/inicio/inicio.html"> Início </a>
-                <a href="./produto/cliente/listarProdutos/produtos.html"> Produtos </a>
-                <a href="../../loja/quemSomos/quemSomos.html"> Quem somos </a>
-                <a href="../../loja/trocas/trocas.html"> Trocas e devoluções </a>
-                <a href="../../login/entrar.html">
-                    <img src="../../icons/person_black_24dp 1.svg" alt="" id="iconePerfil" />
+        <div class="menuCliente">
+            <div class="clienteMenuProdutos">
+                <img src="../../icons/shopping_bag_black_24dp 1.svg" alt="" id="iconeSacola" />
+                <a href="../../cliente/sacola/sacola.html">
+                    <p class="textoCliente">Meus produtos</p>
                 </a>
             </div>
-        </header>
-    </body>
+
+            <div class="clienteMenuFavoritos">
+                <img src="../../icons/favorito_linha.svg" alt="" id="iconeCoracao" />
+                <a href="../../cliente/favorito/favorito.html">
+                    <p class="textoCliente">Meus favoritos</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="navegacao">
+            <a href="../../loja/inicio/inicio.html"> Início </a>
+            <a href="../../produto/cliente/listarProdutos/produtos.html"> Produtos </a>
+            <a href="../../loja/quemSomos/quemSomos.html"> Quem somos </a>
+            <a href="../../loja/trocas/trocas.html"> Trocas e devoluções </a>
+            <a href="../../login/entrar.html">
+                <img src="../../icons/person_black_24dp 1.svg" alt="" id="iconePerfil" />
+            </a>
+        </div>
+    </header>
+</body>
+
 </html>
