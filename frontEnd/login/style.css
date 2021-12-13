@@ -25,6 +25,7 @@ main{
     padding: 15px;
     padding-top: 150px;
     padding-bottom: 150px;
+    margin-bottom: 70px;
 }
 
 
@@ -106,6 +107,13 @@ p{
 }
 
 @media(max-width: 640px){
+
+    main{
+        width: 100vw;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
     
     header{
         height: 35%;
