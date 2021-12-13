@@ -18,6 +18,17 @@ main{
     flex-grow: 1;
     font-size: large;
 }
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.campo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .form-cadastro h1{
     color: #48302E;
