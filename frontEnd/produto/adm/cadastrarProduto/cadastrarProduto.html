@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,23 @@
     <title>Cadastro de Produtos</title>
     <!-- style -->
     <link rel="stylesheet" href="cadastrarProduto.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
     <!-- script -->
     <script src="js/main.js"></script>
+
 </head>
+
 <body class="bodyCadatroProdutos">
 
-    <header></header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#header").load("./header.html")
+        })
+    </script>
+    <header id="header"></header>
 
     <main>
         <form action="" class="form-cadastro">
@@ -22,32 +34,32 @@
                 <div class="campo">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nomeProduto">
-                </div>    
-                
+                </div>
+
                 <div class="campo">
                     <label for="tamanho">Tamanho:</label>
                     <input type="text" id="tamanho">
                 </div>
-            
+
             </fieldset>
 
             <fieldset class="grupo grupoDois">
                 <div class="campo">
                     <label for="preco">Preço:</label>
                     <input type="text" id="preco">
-                </div>            
-               
+                </div>
+
                 <div class="campo">
                     <label for="cor">Cor:</label>
-                    <select name="" id="">
+                    <select name="" id="selectCor">
                         <option value=""></option>
                     </select>
                 </div>
-                
+
                 <div class="campo">
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" id="quantidade">
-                </div>  
+                </div>
             </fieldset>
 
             <fieldset class="grupo grupoTres">
@@ -55,33 +67,39 @@
                     <label for="modelo">Modelo:</label>
                     <input type="text" id="modelo">
                 </div>
-                
+
                 <div class="campo">
                     <label for="foto">Foto:</label>
                     <input type="file" id="fotoProduto">
                 </div>
             </fieldset>
-                
+
             <fieldset class="grupo grupoQuatro">
                 <div class="campo">
                     <label for="descricao">Descrição:</label>
                     <input type="text" id="descricao">
                 </div>
-                
+
                 <div class="campo">
                     <label for="desconto">Desconto:</label>
                     <input type="text" id="desconto">
                 </div>
             </fieldset>
-                       
+
             <div class="buttonCadastrar">
                 <button class="buttonCadastrar">CADASTRAR</button>
             </div>
         </form>
-        
+
     </main>
 
-    <footer></footer>
-    
+    <script>
+        $(function () {
+            $("#footer").load("./footer.html")
+        })
+    </script>
+    <footer id="footer"></footer>
+
 </body>
+
 </html>

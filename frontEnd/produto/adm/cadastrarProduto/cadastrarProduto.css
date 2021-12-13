@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main{
@@ -42,14 +43,20 @@ fieldset{
     max-width: 650px;
 }
 
-input{
+#nomeProduto, #tamanho, #preco, #quantidade, #modelo,
+#fotoProduto, #descricao, #desconto{
     position: static;
     height: 48px;
-    /* width: 300px; */
     border: 3px solid #D7A29B;
     border-radius: 7px;
     font-size: 1.2rem;
     color: #48302E;
+}
+
+#selectCor{
+    border: 3px solid #D7A29B;
+    border-radius: 7px;
+    padding: 15px;
 }
 
 .grupo{
@@ -69,6 +76,7 @@ button{
     color: #48302E;
     font-size: large;
     margin-top: 3em;
+    cursor: pointer;
 }
 
 .buttonCadastrar{

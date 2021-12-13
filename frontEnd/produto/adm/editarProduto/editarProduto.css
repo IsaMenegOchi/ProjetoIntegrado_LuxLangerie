@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main{
@@ -31,10 +32,19 @@ main{
     max-width: 650px;
 }
 
-input{
+/* input{
     position: static;
     height: 48px;
-    /* width: 300px; */
+    border: 3px solid #D7A29B;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    color: #48302E;
+} */
+
+#nomeProduto, #tamanho, #preco, #quantidade, #modelo,
+#fotoProduto, #descricao, #desconto{
+    position: static;
+    height: 48px;
     border: 3px solid #D7A29B;
     border-radius: 7px;
     font-size: 1.2rem;
@@ -58,6 +68,7 @@ button{
     color: #48302E;
     font-size: large;
     margin-top: 3em;
+    cursor: pointer;
 }
 
 .buttonSalvar{
@@ -80,6 +91,9 @@ button{
 
 #cor{
     width: 310px;
+    border: 3px solid #D7A29B;
+    border-radius: 7px;
+    padding: 15px;
 }
 
 #quantidade{
