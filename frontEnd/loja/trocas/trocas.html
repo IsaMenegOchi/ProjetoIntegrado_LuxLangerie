@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="trocas.css"/>
-
+        <link rel="stylesheet" href="../../header.css">
+        <link rel="stylesheet" href="../../footer.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
@@ -12,7 +13,14 @@
     </head>
 
     <body>
-        <header></header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+            $(function () {
+                $("#header").load("./header.html")
+            })
+        </script>
+        <header id="header"></header>
 
         <main class="mainTrocasDevolucoes">
             <h1 class="titulo-trocas-devolucoes">TROCAS E DEVOLUÇÕES </h1>
@@ -32,6 +40,11 @@
                    
         </main>
 
-        <footer></footer>
+        <script>
+            $(function () {
+                $("#footer").load("./footer.html")
+            })
+        </script>
+        <footer id="footer"></footer>
     </body>
 </html>
