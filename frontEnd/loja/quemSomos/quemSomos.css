@@ -4,11 +4,18 @@
     padding: 0;
     color: #48302E;
     overflow-x: hidden;
+    font-family: 'Bentham', serif;
+    font-size: 1.2rem;
 }
 
-main{
-    font-family: 'Bentham', serif;
+.mainTrocasDevolucoes{
+    /* font-family: 'Bentham', serif; */
     margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+h1{
+    /* font-size: 40px; */
 }
 
 .titulo-quem-somos{

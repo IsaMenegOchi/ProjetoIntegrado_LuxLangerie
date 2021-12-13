@@ -5,11 +5,13 @@
     color: #48302E;
 
     font-family: 'Bentham', serif;
+
+    
+    /* font-size: 1.2rem; */
 }
 
 .mainTrocasDevolucoes{
-    height: 70vh;
-    /* background-color: aqua; */
+    margin-bottom: 200px;
 }
 
 .titulo-trocas-devolucoes{
@@ -24,7 +26,6 @@
     /* background-color: #B09896; */
     padding: 3%;
     max-width: 100%;
-    /* font-size: 1.2rem; */
 
     display: flex;
     align-items: center;
@@ -44,6 +45,23 @@ li{
 
 .p-final{
     /* background-color: aquamarine; */
+    max-width: 100%;
     margin-top: 50px;
     font-size: 1.2rem;
 }
+
+
+@media (max-width: 900px  ){
+
+    .mainTrocasDevolucoes h1{
+        /* max-width: 80%; */
+        font-size: 20px;
+    }
+
+
+
+    
+  
+    
+
+  }
