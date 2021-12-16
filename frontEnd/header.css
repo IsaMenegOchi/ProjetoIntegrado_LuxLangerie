@@ -131,6 +131,7 @@ p {
 
     header{
         background: #D7A29B;
+        height: 110px;
     }
     #containerLogo img, .menuCliente img, #formPesquisa img{
         filter: brightness(100);
