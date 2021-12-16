@@ -140,14 +140,24 @@ p {
         position: absolute;
         border: none;
     }
+    #containerLogo{
+        width: 30%;
+        height: 10%;
+    }
+    #containerLogo img{
+        margin-top: 50px;
+        margin-left: 250%;
+        width: 130%;
+        height: 130%;
+        object-fit: cover;
+    }
     #formPesquisa input{
         display: none;
     }
     #lupa{
-        margin-left: 100%;
-        margin-top: 10px;
-        height: 50px;
-        width: 50px;
+        margin-left: 75%;
+        height: 45px;
+        width: 45px;
     }
     .clienteMenuProdutos img{
         margin-right: 0px;
@@ -170,12 +180,12 @@ p {
         display: flex;
         flex-direction: column;
         gap: 8px;
-        margin-top: 40px;
+        margin-top: 38px;
         margin-left: 5%;
     }
     .menuBurguer div{
-        width: 40px;
-        height: 5px;
+        width: 35px;
+        height: 4px;
         background-color: #FFF;
     }
 
